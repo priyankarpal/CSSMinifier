@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Utility */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #273c75;
+}
+
+h2 {
+    color: white;
+    margin: 1em 2em 1em 0;
+
+}
+
+p,
+a {
+
+    margin: 2.3em 5em 2.3em 0;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+a:hover {
+    color: red;
+    transition: 0.2s;
+}
+
+.text-area {
+    height: 17em;
+    width: 40em;
+    margin-bottom: 2em;
+    color: black;
+    border: .2em solid;
+    padding: 2em;
+    resize: none;
+
+}
+
+button {
+    color: black;
+    border: .2em solid;
+    height: 3em;
+    width: 8em;
+    margin: 2em;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: rgb(94, 240, 191);
+}
+
+
+/* For Responsive design */
+@media screen and (max-width: 50em) {
+    * {
+        padding: .3em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2,
+    p,
+    a {
+        margin: 0em;
+    }
+}

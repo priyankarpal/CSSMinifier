@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Minifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container ">
+        <div class="flex text">
+            <h2>CSS Minifier 🛠️</h2>
+            <p><a href="https://github.com/priyankarpal">GitHub</a></p>
+        </div>
+
+        <div class="left-bg flex">
+            <textarea class="text-area" id="cssCode" placeholder="Enter CSS Code"></textarea>
+            <button id="minifyButton">Minify Code</button>
+        </div>
+        <div class="right-bg flex">
+            <textarea class="text-area" id="minifiedCss" placeholder="Your Minified Code"></textarea>
+            <div class="tooltip">
+                <button onclick="myFunction()" onmouseout="outFunc()" id="copy-btn">
+                    Copy Code
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
