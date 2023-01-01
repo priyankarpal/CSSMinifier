@@ -12,6 +12,6 @@ CSS Minifier using HTML5,CSS3 & JS.
 <a href="https://www.twitter.com/priyankarpal" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"  /></a>
 </p>
 
-[CSS Minifier](/images/cssminifier.png)
+![CSS Minifier](/images/cssminifier.png)
 
 # Don't forget to Star this repository. :)
