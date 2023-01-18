@@ -1,5 +1,5 @@
 # CSS Minifier
-This is a free dev tool, it minifies unwanted spaces of CSS Code. I made it using HTMl5,CSS3 and JS.
+This is a free dev tool, it minifies unwanted spaces of CSS Code. I made it using HTMl,CSS and JS.
 
 <h1 align="center"> Connect with me 🤝</h1>
 
